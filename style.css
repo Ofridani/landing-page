@@ -63,7 +63,7 @@ button {
     color: #F9FAF8;
     border-radius: 8px;
     font-weight: 500;
-    border: none;
+    border-width: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +71,12 @@ button {
 
 .information {
     text-align: center;
+}
+
+.information h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 #info-cards-container {
@@ -88,4 +94,29 @@ button {
 .card img {
     width: 100%;
     height: auto;
+}
+
+aside {
+    background-color: #e5e7eb;
+}
+
+blockquote p{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+blockquote footer {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #F9FAF8
+}
+
+.cta button {
+    border: 2px solid #F9FAF8;
 }

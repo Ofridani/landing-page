@@ -10,7 +10,7 @@ p {
     padding: 0;
 }
 
-header, .hero{
+header, .hero, .primary-footer {
     background-color: #1F2937;
 }
 
@@ -114,9 +114,23 @@ blockquote footer {
 
 .cta {
     background-color: #3882F6;
-    color: #F9FAF8
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
 .cta button {
     border: 2px solid #F9FAF8;
+    padding: 4px 20px;
+}
+
+.cta h2 {
+    margin: 0;
+}
+
+.primary-footer {
+    text-align: center;
+    color: #E5E7EB
 }

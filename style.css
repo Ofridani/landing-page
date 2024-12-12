@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 header, .hero{
     background-color: #1F2937;
 }
@@ -62,4 +67,25 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.information {
+    text-align: center;
+}
+
+#info-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
 }
